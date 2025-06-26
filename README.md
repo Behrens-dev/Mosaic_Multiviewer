@@ -7,6 +7,6 @@ See Mosaic_Multiviewer/Guides for easy instructions
 See https://github.com/bluenviron/mediamtx for MediaMTX documentation and software. 
 
 
-![ffmpeg](https://github.com/user-attachments/assets/f7f066b0-a2cb-43a2-a881-23b0404a3245)
+![ffmpeg](https://github.com/user-attachments/assets/7a1e93a1-8ac2-43d3-86f5-3f18618aa355)
 ![raspberrry_pi_logo](https://github.com/user-attachments/assets/85840421-9e22-4374-a6fc-b5fcdfadefb0)
 ![mediamtx](https://github.com/user-attachments/assets/ed2f355c-f407-426e-9546-cc2a6a4718f6)
