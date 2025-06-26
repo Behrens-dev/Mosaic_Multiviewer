@@ -1,0 +1,37 @@
+Automate script to start MediaMTX and FFMPEG job:
+
+1.	For MediaMTX; create an autostart directory.
+
+mkdir -p /home/MOSAIC/.config/autostart
+
+2.	Create a desktop entry file:
+
+nano /home/MOSAIC/.config/autostart/mediamtx.desktop
+
+3.	Add the following content to the file:
+[Desktop Entry]
+Type=Application
+Name=MediaMTX
+Exec=lxterminal -e "cd /home/MOSAIC/mediamtx && ./mediamtx"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+
+4.	Make the file executable:
+chmod +x /home/MOSAIC/.config/autostart/mediamtx.desktop
+
+5.	Test with a reboot. You should see a terminal box open with MediaMTX, that will need to stay open for it to run. 
+
+6.	For FFMPEG, edit cron
+
+crontab -e
+
+7.	Add the following to the last like in cron.
+
+@reboot sleep 20 && DISPLAY=:0 lxterminal --title=" ffmpegStreams" -e "bash -c 'cd /home/MOSAIC/mediamtx && bash ffmpegStreams_RTSP.sh; exec bash'"
+
+This will start run the ffmpegStreams.sh script 20 seconds after boot up, the 20second delay is to allow mediaMTX to run as it need to be running before the ffmpeg job.
+
+**************
+Setup is Done!
+**************
