@@ -1,0 +1,11 @@
+Setup FFMPEG Script job:
+
+1.	cd ./home/MOSAIC/mediamtx
+
+2.	sudo touch ./ffmpegStreams.sh   (Creates an empty file in the mediamtx folder)
+
+3.	 sudo chmod +x ffmpegStreams.sh
+
+4.	Sudo nano ffmpegStreams.sh
+
+# Add in the contents of the ffmpegStreams scripts #
