@@ -1,0 +1,24 @@
+Initial Setup/Installs:
+
+1.	Install Linux (this guied will be installing it on a RasberryPi). You should have at least 2 threads, 2gb of RAM and 10gb or Storage.
+
+2.	Update, in terminal run the following and reboot.
+sudo apt get update
+sudo apt get upgrade
+
+3.	Download the install_ffmpeg.sh script.
+
+4.	In terminal run; sudo chmod +x install_ffmpeg.sh, to make the script executable.
+
+5.	Now run it;   ./install_ffmpeg.sh
+
+6.	Now go download the MediaMTX software from; MediaMTX
+
+7.	With the .tar.gz in your Downloads folder. Download the mediamtx_install_script.sh script. Note, you will likely need to change the path as this path is for /home/MOSAIC/Downloads/…..
+
+8.	In terminal run; sudo chmod +x mediamtx_install_script.sh, to make the script executable.
+
+9.	Now run it;   ./install_mediamtx.sh
+
+
+Now you should have ffmpeg installed and MediaMTX should be installed in /home/USER/mediamtx.
