@@ -8,4 +8,7 @@ See https://github.com/bluenviron/mediamtx for MediaMTX documentation and softwa
 
 
 ![raspi](https://github.com/user-attachments/assets/5eb92959-0106-45c1-956f-ad4c1b43b0b2)
-![raspi](https://github.com/user-attachments/assets/5eb92959-0106-45c1-956f-ad4c1b43b0b2)
+
+![mediamtx](https://github.com/user-attachments/assets/d5ef18ba-e769-41ff-b03b-f7bcd06f09e7)
+
+![ffmpeg](https://github.com/user-attachments/assets/fd124f55-ad87-43b6-8cdb-c96a67cd38f1)
